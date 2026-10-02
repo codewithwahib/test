@@ -1,25 +1,14 @@
-import Hero from "./Components/hero";
-import Navbar from "./Components/navbar";
-import About from "./Components/about"; 
-import Services from "./Components/services";
-import CookiePopup from "./Components/cookies";
-import Features from "./Components/features";
-import CTA from "./Components/cta";
-import Footer from "./Components/footer";
+"use client";
 
-const Home = () => {
+
+export default function Home() {
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <CookiePopup/>
-    <About/>
-    <Services/>
-    <Features/>
-    <CTA/>
-    <Footer/>
-  </>
+      <main className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 flex items-center justify-center p-6">
+        <h1 className="text-center text-4xl font-bold text-gray-800">
+          test
+        </h1>
+      </main>
+    </>
   );
-};
-
-export default Home;
+}
